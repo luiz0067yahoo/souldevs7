@@ -38,7 +38,7 @@ class Navbar extends Component {
             <>
                 <div id="navbar" className="navbar-area">
                     <nav className="navbar navbar-expand-md navbar-light">
-                        <div className="container">
+                        <div className="container" style={{flexDirection:"row-reverse"}}>
                             <Link href="/">
                                 <a className="navbar-brand">
                                     <img src="/images/logo.svg" alt="logo" style={{width:"320px"}}/>
@@ -48,7 +48,7 @@ class Navbar extends Component {
                             {/* Toggle navigation */}
                             <button 
                                 onClick={this.toggleNavbar} 
-                                className={classTwo} 
+                                className={classTwo}
                                 type="button" 
                                 data-toggle="collapse" 
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -60,8 +60,8 @@ class Navbar extends Component {
                                 <span className="icon-bar bottom-bar"></span>
                             </button>
 
-                            <div className={classOne} id="navbarSupportedContent">
-                                <ul className="navbar-nav">
+                            <div className={classOne} id="navbarSupportedContent" style={{flexDirection:"row-reverse"}}>
+                                <ul className="navbar-nav" style={{flexDirection:"row-reverse"}}>
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -143,7 +143,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Services <i className="icofont-thin-down"></i>
+                                                Serviços <i className="icofont-thin-down"></i>
                                             </a>
                                         </Link>
 
@@ -182,14 +182,14 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="/about" activeClassName="active">
-                                            <a className="nav-link">About us</a>
+                                            <a className="nav-link">Quem somos</a>
                                         </Link>
                                     </li>
 
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Portfolio <i className="icofont-thin-down"></i>
+                                                Portfólio <i className="icofont-thin-down"></i>
                                             </a>
                                         </Link>
 
@@ -211,7 +211,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Pages <i className="icofont-thin-down"></i>
+                                                Chamado/Conteúdo <i className="icofont-thin-down"></i>
                                             </a>
                                         </Link>
 
@@ -272,7 +272,7 @@ class Navbar extends Component {
 
                                             <li className="nav-item">
                                                 <Link href="/contact" activeClassName="active">
-                                                    <a className="nav-link">Contact</a>
+                                                    <a className="nav-link">Contato</a>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -281,7 +281,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Blog <i className="icofont-thin-down"></i>
+                                                News letter <i className="icofont-thin-down"></i>
                                             </a>
                                         </Link>
 
@@ -314,11 +314,11 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="/contact" activeClassName="active">
-                                            <a className="nav-link">Contact Us</a>
+                                            <a className="nav-link">Contatos</a>
                                         </Link>
                                     </li>
                                 </ul>
-
+                                {/*--
                                 <div className="others-options">
                                     <Link href="/pricing">
                                         <a className="btn btn-primary">
@@ -326,6 +326,7 @@ class Navbar extends Component {
                                         </a>
                                     </Link>
                                 </div>
+                                --*/}
                             </div>
                         </div>
                     </nav>

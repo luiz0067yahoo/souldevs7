@@ -17,8 +17,8 @@ class MainBanner extends Component {
     render() {
         return (
             <>
-                <div className="main-banner item-bg1">
-                    <div className="d-table">
+                <div className="main-banner item-bg1 pt-4 mt-4">
+                    <div className="d-table  pt-4 mt-4">
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="row">

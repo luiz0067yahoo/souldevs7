@@ -41,14 +41,14 @@ class Navbar extends Component {
                         <div className="container">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/logo.png" alt="logo" />
+                                    <img src="/images/logo.svg" alt="logo" style={{width:"320px"}}/>
                                 </a>
                             </Link>
 
                             {/* Toggle navigation */}
                             <button 
                                 onClick={this.toggleNavbar} 
-                                className={classTwo}
+                                className={classTwo} 
                                 type="button" 
                                 data-toggle="collapse" 
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 

@@ -1,0 +1,80 @@
+{
+	"services": "Services",
+	"who_we_are": "Who we are",
+	"portfolio": "Portfolio",
+	"partners": "Partners",
+	"contact": "Contact",
+	"cta": {
+		"title": "We are a Digital Team",
+		"text": "Building the future with technology, innovation, and transforming challenges into opportunities with technology's help.",
+		"button": "Get in Touch"
+	},
+	"ourServices": {
+		"title": "Our Services",
+		"subtitle": "Welcome to our services page, where we strive to provide tailor-made solutions to meet your needs. Our company is committed to delivering exceptional quality services, driving success and customer satisfaction.",
+		"solutions": {
+			"sites": {
+				"title": "Website Creation",
+				"text": "We create captivating websites that reflect your identity, engage your audience, and drive your business forward."
+			},
+			"apps": {
+				"title": "App Development",
+				"text": "We develop tailor-made applications to enhance your digital presence and take your experience to the next level."
+			},
+			"consulting": {
+				"title": "Consulting",
+				"text": "Count on our specialized consulting to boost your business, providing strategic insights and customized solutions."
+			},
+			"business": {
+				"title": "Business Intelligence",
+				"text": "Unlock the potential of your data with Business Intelligence, providing actionable insights to drive your strategic decision-making."
+			},
+			"systems": {
+				"title": "System Development",
+				"text": "We develop customized systems that meet your specific needs, providing efficiency, automation, and process optimization."
+			},
+			"hosting": {
+				"title": "Website Hosting & Support",
+				"text": "We offer comprehensive website hosting and support services, ensuring a reliable and secure online presence for your business."
+			}
+		}
+	},
+	"aboutUs": {
+		"title": "About Us",
+		"subtitle": "We are a passionate team dedicated to delivering high-quality and innovative solutions to meet the needs of our clients. With years of industry experience, we have established a solid track record of success, building lasting relationships with businesses across various sectors.",
+		"mission": {
+			"title": "Mission",
+			"text": "Our mission is to utilize technology as a powerful tool to make the world a better place. Through the collaborative efforts of our talented and dedicated programmers, we aim to create innovative solutions that have a positive impact on individuals and society. Our goal is to use technology to address global challenges, promoting inclusivity and progress."
+		},
+		"vision": {
+			"title": "Vision",
+			"text": "To be an international reference in providing innovative technological solutions that transform the way people live, work, and connect. We strive to drive innovation, establish long-term partnerships with our clients, and be a trusted partner. Our vision is to be a responsible, sustainable company and a leader in advancing technological solutions."
+		},
+		"values": {
+			"title": "Values",
+			"text": "We are an innovative company, committed to excellence and the pursuit of high-impact technological solutions. We value collaboration, diversity, and the creation of a positive legacy for future generations."
+		}
+	},
+	"ourTeam": {
+		"title": "Our Team",
+		"text": "Our team consists of highly skilled and experienced professionals with expertise in various key areas. We have experts in software development, interface design, project management, and data analysis.",
+		"membersPosition": {
+			"felipe": "Product Owner & Scrum Master",
+			"junior": "Full Stack Developer",
+			"luiz": "Full Stack Developer",
+			"mayk": "Full Stack Developer & UX Designer",
+			"thiago": "Full Stack Developer",
+			"vinicius": "Full Stack Developer",
+			"william": "Full Stack Developer"
+		}
+	},
+	"ourWork": {
+		"title": "Our Work",
+		"text": "Committed to excellence, we deliver results that exceed expectations, ensuring that each project is executed with quality, innovation, and dedication."
+	},
+	"ourPartners": "Partners",
+	"footerInfo": {
+		"companyText": "Our technology company drives innovation, transforming the digital world with intelligent solutions.",
+		"contactMessage": "Get in Touch"
+	}
+}

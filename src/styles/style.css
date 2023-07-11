@@ -44,6 +44,10 @@ This files table contents are outlined below >>>>>
 */
 /* Default CSS */
 *{ direction: ltr;}
+html{
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
 body {
   padding: 0;
   margin: 0;
@@ -69,7 +73,7 @@ h3, h4, h5, h6 {
 p {
   line-height: 1.8;
   font-size: 16px;
-  color: #646464;
+  color: #202020;
   margin-bottom: 15px;
 }
 
@@ -195,7 +199,7 @@ a:hover, a:focus {
 .btn-primary {
   color: #ffffff;
   background-color: #ffffff;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #92C5EE;
 }
 
 .btn-primary::before {
@@ -209,32 +213,32 @@ a:hover, a:focus {
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: radial-gradient(circle at 10% 20%, rgb(26, 178, 203) 0%, rgb(0, 102, 161) 90.1%);
   z-index: -1;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  color: #ff2c9c;
+  color: #6EB1E8;
   -webkit-box-shadow: unset;
           box-shadow: unset;
   background-color: transparent;
-  border-color: #ff2c9c;
+  border-color: #6EB1E8;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #ffffff;
   background-color: #ffffff;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #1D74BB;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  color: #ff2c9c;
+  color: #1D74BB;
   -webkit-box-shadow: unset;
           box-shadow: unset;
   background-color: transparent;
-  border-color: #ff2c9c;
+  border-color: #1D74BB;
 }
 
 .btn-primary:hover::before, .btn-primary:focus::before {
@@ -242,9 +246,9 @@ a:hover, a:focus {
 }
 
 .btn-secondary {
-  color: #ff2c9c;
+  color: #6EB1E8;
   background-color: transparent;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #6EB1E8;
 }
 
 .btn-secondary::before {
@@ -258,7 +262,7 @@ a:hover, a:focus {
   width: 0;
   height: 100%;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: radial-gradient(circle at 10% 20%, rgb(26, 178, 203) 0%, rgb(0, 102, 161) 90.1%);
   z-index: -1;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
@@ -273,9 +277,9 @@ a:hover, a:focus {
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
-  color: #ff2c9c;
+  color: #6EB1E8;
   background-color: transparent;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #6EB1E8;
 }
 
 .btn-secondary:hover, .btn-secondary:focus {
@@ -534,7 +538,7 @@ Navbar CSS
   bottom: -5px;
   width: 0;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: radial-gradient(circle at 10% 20%, rgb(26, 178, 203) 0%, rgb(0, 102, 161) 90.1%);
   height: 3px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
@@ -1069,8 +1073,6 @@ Main Banner CSS
 
 .animate-banner-image img {
   display: block !important;
-  -webkit-animation: border-transform 10s linear infinite alternate forwards;
-  animation: border-transform 10s linear infinite alternate forwards;
   margin: auto;
 }
 
@@ -2564,7 +2566,7 @@ Services CSS
 }
 
 .service-card-one h3 a:hover {
-  color: #ff2c9c;
+  color: #1D74BB;
 }
 
 .service-card-one p {
@@ -3200,6 +3202,7 @@ Team CSS
 
 .team-card img {
   width: 100%;
+  max-width: 200px;
 }
 
 .team-card .team-caption {
@@ -3242,7 +3245,7 @@ Team CSS
 }
 
 .team-card .team-caption ul li i:hover {
-  background-color: #ff2c9c;
+  background-color: #258ADD;
   color: #ffffff;
 }
 
@@ -6027,8 +6030,9 @@ FAQ CSS
 Footer CSS
 =================================================*/
 .footer-area {
-  background-color: #f6f9fc;
-  padding-top: 100px;
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
   z-index: 1;
 }
@@ -6108,27 +6112,6 @@ Footer CSS
   font-weight: 600;
 }
 
-.single-footer-widget h3::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 55px;
-  height: 3px;
-  background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
-}
-
-.single-footer-widget h3::after {
-  content: '';
-  position: absolute;
-  left: 35px;
-  bottom: 0;
-  height: 3px;
-  background: #f6f9fc;
-  width: 5px;
-}
-
 .single-footer-widget ul.list {
   margin: 0;
   list-style-type: none;
@@ -6179,18 +6162,18 @@ Footer CSS
 .single-footer-widget ul.get-in-touch {
   padding: 0;
   margin: 0;
+  height: 20px;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: space-between;
   list-style-type: none;
 }
 
 .single-footer-widget ul.get-in-touch li {
   position: relative;
-  margin-bottom: 25px;
   padding-left: 50px;
   font-size: 16px;
-}
-
-.single-footer-widget ul.get-in-touch li:first-child {
-  margin-bottom: 15px;
 }
 
 .single-footer-widget ul.get-in-touch li i {
@@ -6221,7 +6204,7 @@ Footer CSS
 }
 
 .single-footer-widget ul.get-in-touch li a:hover, .single-footer-widget ul.get-in-touch li a:focus {
-  color: #ff2c9c;
+  color: #1D74BB;
 }
 
 .single-footer-widget ul.get-in-touch li:last-child {
@@ -6294,4 +6277,119 @@ Go Top CSS
 .lang-didebar a:last-child {
   background-color: #483e3e;
 }
-/*# sourceMappingURL=style.css.map */
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-items: center; 
+}
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: relative;
+  animation: rotate 1s linear infinite
+}
+.loader::before , .loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  animation: prixClipFix 2s linear infinite ;
+}
+.loader::after{
+  border-color: #FF3D00;
+  animation: prixClipFix 2s linear infinite , rotate 0.5s linear infinite reverse;
+  inset: 6px;
+}
+
+@keyframes rotate {
+  0%   {transform: rotate(0deg)}
+  100%   {transform: rotate(360deg)}
+}
+
+@keyframes prixClipFix {
+    0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+    25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+    50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+    75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
+    100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
+}
+
+
+
+
+
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.language-dropdown__select {
+  appearance: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.language-dropdown__select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}

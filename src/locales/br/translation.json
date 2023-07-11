@@ -1,0 +1,80 @@
+{
+	"services": "Serviços",
+	"who_we_are": "Quem Somos",
+	"portfolio": "Portfólio",
+	"partners": "Parceiros",
+	"contact": "Contato",
+	"cta": {
+		"title": "Nós Somos Um Time Digital",
+		"text": "Construindo o futuro com tecnologia, inovação e transformando desafios em oportunidades com a ajuda da tecnologia.",
+		"button": "Contate Agora"
+	},
+	"ourServices": {
+		"title": "Nossos Serviços",
+		"subtitle": "Bem-vindo à nossa página de serviços, onde buscamos oferecer soluções sob medida para atender às suas necessidades. Nossa empresa está empenhada em fornecer serviços de qualidade excepcional, impulsionando o sucesso e a satisfação dos nossos clientes.",
+		"solutions": {
+			"sites": {
+				"title": "Criação de Sites",
+				"text": "Criamos sites cativantes que refletem sua identidade, envolvem seu público e impulsionam seu negócio."
+			},
+			"apps": {
+				"title": "Desenvolvimento de Aplicativos",
+				"text": "Desenvolvemos aplicativos sob medida para potencializar sua presença digital e levar sua experiência ao próximo nível."
+			},
+			"consulting": {
+				"title": "Consultoria",
+				"text": "Conte com nossa consultoria especializada para impulsionar seu negócio, oferecendo insights estratégicos e soluções personalizadas."
+			},
+			"business": {
+				"title": "Business Intelligence",
+				"text": "Desbloqueie o potencial dos seus dados com Business Intelligence, fornecendo insights acionáveis para impulsionar sua tomada de decisão estratégica."
+			},
+			"systems": {
+				"title": "Desenvolvimento de Sistemas",
+				"text": "Desenvolvemos sistemas customizados que atendem às suas necessidades específicas, proporcionando eficiência, automatização e otimização de processos."
+			},
+			"hosting": {
+				"title": "Hospedagem e Suporte de Sites",
+				"text": "Oferecemos serviços completos de hospedagem e suporte de sites, garantindo uma presença online confiável e segura para o seu negócio."
+			}
+		}
+	},
+	"aboutUs": {
+		"title": "Sobre Nós",
+		"subtitle": "Somos uma equipe apaixonada por oferecer soluções de alta qualidade e inovadoras para atender às necessidades dos nossos clientes. Com anos de experiência no setor, estabelecemos um histórico sólido de sucesso, construindo relacionamentos duradouros com empresas de diferentes setores.",
+		"mission": {
+			"title": "Missão",
+			"text": "Nossa missão é utilizar a tecnologia como uma ferramenta poderosa para fazer do mundo um lugar melhor. Através do trabalho conjunto de nossos programadores talentosos e comprometidos, buscamos criar soluções inovadoras que tenham um impacto positivo nas pessoas e na sociedade. Nosso objetivo é utilizar a tecnologia para enfrentar desafios globais, promovendo a inclusão e o progresso."
+		},
+		"vision": {
+			"title": "Visão",
+			"text": "Ser referencia internacional no fornecimento de soluções tecnológicas inovadoras que transformam a maneira como as pessoas vivem, trabalham e se conectam. Buscamos impulsionar a inovação, criar parcerias de longo prazo com os clientes e ser um parceiro confiável. Nossa visão é ser uma empresa responsável, sustentável e líder no avanço de soluções tecnológicas."
+		},
+		"values": {
+			"title": "Valores",
+			"text": "Somos uma empresa inovadora, comprometida com a excelência e a busca por soluções tecnológicas de alto impacto. Valorizamos a colaboração, diversidade e a criação de um legado positivo para as gerações futuras."
+		}
+	},
+	"ourTeam": {
+		"title": "Nosso Time",
+		"text": "Nosso time é composto por profissionais altamente habilidosos e experientes, com expertise em diversas áreas-chave. Temos especialistas em desenvolvimento de software, design de interfaces, gerenciamento de projetos e análise de dados.",
+		"membersPosition": {
+			"felipe": "Product Owner & Scrum Master",
+			"junior": "Desenvolvedor Full Stack",
+			"luiz": "Desenvolvedor Full Stack",
+			"mayk": "Desenvolvedor Full Stack & UX Designer",
+			"thiago": "Desenvolvedor Full Stack",
+			"vinicius": "Desenvolvedor Full Stack",
+			"william": "Desenvolvedor Full Stack"
+		}
+	},
+	"ourWork": {
+		"title": "Nosso Trabalho",
+		"text": "Comprometidos com a excelência, entregamos resultados que superam expectativas, garantindo que cada projeto seja executado com qualidade, inovação e dedicação."
+	},
+	"ourPartners": "Parceiros",
+	"footerInfo": {
+		"companyText": "Nossa empresa de tecnologia impulsiona a inovação, transformando o mundo digital com soluções inteligentes.",
+		"contactMessage": "Entre em Contato"
+	}
+}

@@ -24,7 +24,6 @@ ul {
 }
 
 .navbar-area nav .navbar-nav {
-  margin-left: 0;
   margin-right: auto;
 }
 
@@ -127,8 +126,8 @@ ul {
 }
 
 .scroll-to-top i {
-  right: auto;
-  left: 20px;
+  left: auto;
+  right: 20px;
 }
 
 .contact-cta-box {

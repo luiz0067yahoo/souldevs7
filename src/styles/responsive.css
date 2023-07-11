@@ -866,7 +866,7 @@
     line-height: 30px;
   }
   .single-footer-widget ul.get-in-touch li:first-child {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .copyright-area {
     margin-top: 30px;

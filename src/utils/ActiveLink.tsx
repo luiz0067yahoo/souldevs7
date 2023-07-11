@@ -7,22 +7,21 @@ type ActiveLinkProps = {
   activeClassName: string;
 };
 
-const ActiveLink: React.FC<ActiveLinkProps> = ({
+const ActiveLink: React.FC<ActiveLinkProps & React.ComponentProps<Link>> = ({
   to,
   children,
   activeClassName,
   ...props
 }) => {
-  const child = React.Children.only(children);
-
-  let className = child.props.className || "";
-  if (to === props.to && activeClassName) {
-    className = `${className} ${activeClassName}`.trim();
-  }
-
+  const handleClick = (e) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+    targetElement.scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <Link to={props.to} legacyBehavior {...props}>
-      {React.cloneElement(child, { className })}
+    <Link {...props} onClick={handleClick}>
+      {children}
     </Link>
   );
 };

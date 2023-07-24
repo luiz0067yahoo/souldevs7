@@ -14,16 +14,6 @@ const Partner = async () => {
           <div className="image-grid">
             <div className="image-item">
               <Image
-                src="/images/ignite.png"
-                className="img-fluid"
-                alt="Imagem 1"
-                width="200"
-                height="200"
-                unoptimized
-              />
-            </div>
-            <div className="image-item">
-              <Image
                 src="/images/lithium.png"
                 className="img-fluid"
                 alt="Imagem 1"
